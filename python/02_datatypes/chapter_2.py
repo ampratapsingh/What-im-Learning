@@ -1,0 +1,8 @@
+spicemix = set()
+spicemix.add("pepper")
+spicemix.add("salt")
+print(f"The mixture contains: {spicemix}")
+print(f"The mixture id is:{id(spicemix)}")
+spicemix.add("cumin")
+print(f"The mixture contains: {spicemix}")
+print(f"The mixture id is:{id(spicemix)}")
